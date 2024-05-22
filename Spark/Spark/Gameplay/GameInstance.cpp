@@ -37,6 +37,7 @@ LevelManager* GameInstance::GetLevelManager() const
 
 void GameInstance::Init()
 {
+
 	m_levelManager = new LevelManager(this);
 }
 
